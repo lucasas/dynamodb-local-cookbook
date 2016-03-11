@@ -1,4 +1,4 @@
-include_recipe 'opsworks_java::jvm_install'
+include_recipe 'java'
 include_recipe 'ark'
 
 # download and install dynamodb local
