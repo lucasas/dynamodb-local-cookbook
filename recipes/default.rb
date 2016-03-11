@@ -17,6 +17,7 @@ end
 directory node[:dynamodb_local][:path][:data] do
   owner "root"
   mode 0755
+  recursive true
   action :create
 end
 
@@ -25,6 +26,7 @@ end
 directory node[:dynamodb_local][:path][:logs] do
   owner "root"
   mode 0755
+  recursive true
   action :create
 end
 
