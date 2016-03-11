@@ -1,6 +1,5 @@
 name 'dynamodb-local'
 version '0.2.4'
 
-depends 'apt'
-depends 'java'
+depends 'opsworks_java'
 depends 'ark'
